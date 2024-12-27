@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery</title>
+        <!---css-->
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/all.min.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <!--animate.css-->
+        <link rel="stylesheet" href="../assets/css/animate.min.css">
+        <!--owlcarousel-->
+        <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css">
+    
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    </head>
+    <body class="contact-page">
+    
+      <!--top bar-->
+      <div class="top-bar">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo-img">
+                <a href=""><img src="../assets/images/logo.png" alt="logo" width="120" height="50"></a>
+            </div>
+            <div class="d-flex justify-content-around align-items-center">
+                <div class="contact-info me-5">
+                    <i class="fa-brands fa-whatsapp me-1"></i>
+                    <span class="me-2">1-800-555-1234</span>
+                    <i class="fa-solid fa-envelope me-1"></i>
+                    <span>hello@example.com</span>
+                </div>
+                <div class="submit-btn">
+                    <a href="">submit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Navbar-->
+    <div class="nav-bar">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize me-4" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize me-4" href="#">real estate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link   text-capitalize me-4" aria-current="page" href="property.html">property</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize me-4" href="#">blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-capitalize me-4" aria-current="page" href="gallery.html">gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize me-4" href="pages.html">pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-capitalize" href="contact.html">contact</a>
+                            </li>
+                        </ul>
+                        <i class="fa-regular fa-user user-icon"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!--landing-->
+    <header class="landing">
+        <section class="gallery-section d-flex justify-content-center align-items-center">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 position-absolute ">
+                        <h3 class=" fw-bold text-white mb-4  animate__animated animate__fadeInDown animate__slow">Contact</h3>        
+                        <div class="search  p-4 d-flex justify-content-center align-items-center  animate__animated animate__fadeInDown  animate__slow">
+                            <div class="d-flex flex-column justify-content-center align-items-center w-25 me-3">
+                                <label for="" class="text-black fw-semibold mb-2">Location</label>
+                                <select name="" id="" aria-placeholder="All main locations">
+                                    <option value="">Miami</option>
+                                    <option value="">Dorai</option>
+                                    <option value="">Little havana</option>
+                                    <option value="">Perine</option>
+                                </select>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center align-items-center w-25 me-3">
+                                <label for="" class="text-black fw-semibold mb-2">Property Status</label>
+                                <select name="" id="" aria-placeholder="All main locations">
+                                    <option value="">Miami</option>
+                                    <option value="">Dorai</option>
+                                    <option value="">Little havana</option>
+                                    <option value="">Perine</option>
+                                </select>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center align-items-center w-25 me-3">
+                                <label for="" class="text-black fw-semibold mb-2">Property Type</label>
+                                <select name="" id="" aria-placeholder="All main locations">
+                                    <option value="">Miami</option>
+                                    <option value="">Dorai</option>
+                                    <option value="">Little havana</option>
+                                    <option value="">Perine</option>
+                                </select>
+                            </div>
+                            <i class="fa-solid fa-magnifying-glass-plus search-icon"></i>
+                            <a href="#">Search</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="contact-page ">
+        <div class="container">
+            <div class="row bg-white p-5 rounded-3 contact-container">
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column gap-3">
+                        <label for="">Name</label>
+                        <input type="text" placeholder="Your Name">
+                        <label for="">Email</label>
+                        <input type="email" placeholder="Your Email">
+                        <label for="">Phone Number</label>
+                        <input type="text" placeholder="Your Phone">
+                        <label for="">Message</label>
+                        <textarea name="" id="" placeholder="Your Message"></textarea>
+                        <a href="" class="submit-btn">Submit</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 ms-lg-5 mt-lg-0 mt-5">
+                    <div class="d-flex flex-column justify-content-between gap-3">
+                        <div>
+                            <div class="d-flex gap-3 align-items-center">
+                                <i class="fa-solid fa-phone"></i>
+                                <p class="mt-0 mb-0">Phone</p>
+                            </div>
+                            <p class="ms-4">+123-456-789</p>
+                        </div>
+                        <div>
+                            <div class="d-flex gap-3 align-items-center">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                <p class="mt-0 mb-0">Mobile</p>
+                            </div>
+                            <p class="ms-4">+123-456-789</p>
+                        </div>
+                        <div>
+                            <div class="d-flex gap-3 align-items-center">
+                                <i class="fa-solid fa-fax"></i>
+                                <p class="mt-0 mb-0">Fax</p>
+                            </div>
+                            <p class="ms-4">+123-456-789</p>
+                        </div>
+                        <div>
+                            <div class="d-flex gap-3 align-items-center">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p class="mt-0 mb-0">Email</p>
+                            </div>
+                            <p class="ms-4">sales@yourwebsite.com</p>
+                        </div>
+                        <div>
+                            <div class="d-flex gap-3 align-items-center">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p class="mt-0 mb-0">Address</p>
+                            </div>
+                            <p class="ms-4">3015 Grand Ave, Coconut Grove, Merrick Way, FL 12345</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <h3 class="mt-5">Property Location</h3>
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <div>
+                        <img src="../assets/images/logo.png" alt="" width="120" height="50">
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-links">
+                <div class="col-lg-3">
+                    <h4 class="mb-3 text-white">Quick Links</h4>
+                    <div class="d-flex flex-column gap-3">
+                        <a href="">Home</a>
+                        <a href="">Property</a>
+                        <a href="">Gallery</a>
+                        <a href="">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-flex flex-column gap-4">
+                        <a href="">Real Estate</a>
+                        <a href="">Blog</a>
+                        <a href="pages.html">Pages</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-flex flex-column gap-3">
+                        <p><i class="fa-solid fa-location-dot me-3"></i>3015 Grand Ave, Coconut Grove, Merrick Way, FL 12345</p>
+                        <a href=""><i class="fa-solid fa-phone me-3"></i>+123456</a>
+                        <a href=""><i class="fa-solid fa-envelope me-3"></i>robot@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="text-white">Tags</h4>
+                    <div class="d-flex flex-wrap">
+                        <a href="" class="footer-btns">awarness</a>
+                        <a href="" class="footer-btns">contemporary</a>
+                        <a href="" class="footer-btns">economy living</a>
+                        <a href="" class="footer-btns">image post</a>
+                        <a href="" class="footer-btns">interior</a>
+                        <a href="" class="footer-btns">living rooms</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 text-white">
+                <div class="container">
+                    <div class="col-lg-12">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>© 2024. All rights reserved.</p>
+                            <p>Designed by Inspiry Themes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var map = L.map('map').setView([25.728, -80.239], 15); 
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        var marker = L.marker([25.728, -80.239]).addTo(map);
+
+        marker.bindPopup("<b>Coconut Grove</b><br>Property Location").openPopup();
+    </script>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/all.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    </body>
+
+
+

@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!---css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!--owlcarousel-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+
+    <!--top bar-->
+    <div class="top-bar">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo-img">
+                <a href=""><img src="assets/images/logo.png" alt="logo" width="120" height="50"></a>
+            </div>
+            <div class="d-flex justify-content-around align-items-center">
+                <div class="contact-info me-5">
+                    <i class="fa-brands fa-whatsapp me-1"></i>
+                    <span class="me-2">1-800-555-1234</span>
+                    <i class="fa-solid fa-envelope me-1"></i>
+                    <span>hello@example.com</span>
+                </div>
+                <div class="submit-btn">
+                    <a href="">submit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Navbar-->
+    <div class="nav-bar ">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-capitalize me-4" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize me-4" href="pages/realEstate.html">real estate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize me-4" aria-current="page" href="pages/property.html">property</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize me-4" href="#">blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize me-4" aria-current="page" href="pages/gallery.html">gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize me-4" href="pages/pages.html">pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize" href="pages/contact.html">contact</a>
+                            </li>
+                        </ul>
+                        <i class="fa-regular fa-user user-icon"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!--landing-->
+    <header class="header position-relative ">
+        <section class="hero-section position-relative d-flex justify-content-center align-items-center text-center overflow-hidden">
+            <div class="overlay-gradient"></div>
+            <div class="container position-relative z-index-2">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <h1
+                            class="display-2 fw-bold text-white mb-4  animate__animated animate__fadeInDown animate__slow">
+                            Looking To Buy or Rent a Property?Find Your Dream Home
+                        </h1>
+                        <hr class=" m-auto animate__animated animate__fadeInLeft animate__faster seperator">
+                        <p class="lead text-white-50 mb-4 animate__animated animate__fadeInDown animate__slow">
+                            RealHomes gracefully facilitates real estate business owners by making property
+                            management easier & affordable. ​
+                        </p>
+                        <div class="search bg-light p-5 d-flex justify-content-center align-items-center rounded-4 animate__animated animate__fadeInDown  animate__slow">
+                            <select name="" id="" aria-placeholder="All main locations">
+                                <label for="">Select</label>
+                                <option value="">Miami</option>
+                                <option value="">Dorai</option>
+                                <option value="">Little havana</option>
+                                <option value="">Perine</option>
+                            </select>
+                            <select name="" id="" aria-placeholder="All main locations">
+                                <option value="">Miami</option>
+                                <option value="">Dorai</option>
+                                <option value="">Little havana</option>
+                                <option value="">Perine</option>
+                            </select>
+                            <select name="" id="" aria-placeholder="All main locations">
+                                <option value="">Miami</option>
+                                <option value="">Dorai</option>
+                                <option value="">Little havana</option>
+                                <option value="">Perine</option>
+                            </select>
+                            <i class="fa-solid fa-magnifying-glass-plus search-icon"></i>
+                            <a href="#">Search</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!--recentProperties-->
+
+    <section class="recent-prop  text-center">
+        <div class="container">
+            <h3>Recent Properties</h3>
+            <hr>
+            <p>Check out some of our latest properties.</p>
+            <div class="row">
+                <div class="col-lg-12 col-md-6 col-sm-6">
+                    <div class=" prop-container">
+                        <div class="prop-img">
+                            <img src="assets/images/prop-1.jpg" alt="home-photo" srcset="" class="home-photo">
+                            <div class="over-lay"></div>
+                            <div class="hot">
+                                Hot
+                            </div>
+                            <div class="heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="camera">
+                                <i class="fa-solid fa-camera"></i>
+                                6
+                            </div>
+                            <div class="video">
+                                <i class="fa-solid fa-film"></i>
+                                1
+                            </div>
+                            <div class="featured">Featured</div>
+                        </div>
+                        <div class="prop-info">
+                            <p class="mb-3">Home in Merrick Way</p>
+                            <p class="mb-3">Enchanting three bedroom, three bath home with spacious one…</p>
+                            <p class="location mb-3"><i class="fa-solid fa-location-dot"></i> Merrick Way, Miami, FL 33134,
+                                USA</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="d-flex flex-column justify-content-between align-items-center  me-3">Bedrooms <i
+                                        class="fa-solid fa-bed mt-3"></i>3</span>
+                                <span class="d-flex flex-column justify-content-between align-items-center  me-3">Bathrooms <i
+                                        class="fa-solid fa-shower mt-3"></i>2</span>
+                                <span class="d-flex flex-column justify-content-between align-items-center  me-3">Area <i
+                                        class="fa-solid fa-chart-area mt-3"></i>4</span>
+                            </div>
+                        </div>
+                        <div class="prop-price">
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="fw-bold">For Sale</p>
+                                <p class="fs-5 total-price">$540,000</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="text-muted">By</p>
+                                <p class="fw-bold">Melissa William, John David</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-6 mt-lg-4 mt-4 mt-md-0">
+                    <div class=" prop-container">
+                        <div class="prop-img">
+                            <img src="assets/images/prop-2.jpg" alt="home-photo" srcset="">
+                            <div class="over-lay"></div>
+                            <div class="hot">
+                                Hot
+                            </div>
+                            <div class="heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="camera">
+                                <i class="fa-solid fa-camera"></i>
+                                6
+                            </div>
+                            <div class="video">
+                                <i class="fa-solid fa-film"></i>
+                                1
+                            </div>
+                            <div class="featured">Featured</div>
+                        </div>
+                        <div class="prop-info">
+                            <p class="mb-3">Home in Merrick Way</p>
+                            <p class="mb-3">Enchanting three bedroom, three bath home with spacious one…</p>
+                            <p class="location mb-3"><i class="fa-solid fa-location-dot"></i> Merrick Way, Miami, FL 33134,
+                                USA</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="d-flex flex-column justify-content-between align-items-center  me-3">Bedrooms <i
+                                        class="fa-solid fa-bed mt-3"></i>3</span>
+                                <span class="d-flex flex-column justify-content-between align-items-center  me-3">Bathrooms <i
+                                        class="fa-solid fa-shower mt-3"></i>2</span>
+                                <span class="d-flex flex-column justify-content-between align-items-center  me-3">Area <i
+                                        class="fa-solid fa-chart-area mt-3"></i>4</span>
+                            </div>
+                        </div>
+                        <div class="prop-price">
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="fw-bold">For Sale</p>
+                                <p class="fs-5 total-price">$540,000</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="text-muted">By</p>
+                                <p class="fw-bold">Melissa William, John David</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-6 mt-4">
+                    <div class=" prop-container">
+                        <div class="prop-img">
+                            <img src="assets/images/prop-3.jpg" alt="home-photo" srcset="">
+                            <div class="over-lay"></div>
+                            <div class="hot">
+                                Hot
+                            </div>
+                            <div class="heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="camera">
+                                <i class="fa-solid fa-camera"></i>
+                                6
+                            </div>
+                            <div class="video">
+                                <i class="fa-solid fa-film"></i>
+                                1
+                            </div>
+                            <div class="featured">Featured</div>
+                        </div>
+                        <div class="prop-info">
+                            <p class="mb-3">Home in Merrick Way</p>
+                            <p class="mb-3">Enchanting three bedroom, three bath home with spacious one…</p>
+                            <p class="location mb-3"><i class="fa-solid fa-location-dot"></i> Merrick Way, Miami, FL 33134,
+                                USA</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="d-flex flex-column justify-content-between align-items-center  me-3">Bedrooms <i
+                                        class="fa-solid fa-bed mt-3"></i>3</span>
+                                <span class="d-flex flex-column justify-content-between align-items-center  me-3">Bathrooms <i
+                                        class="fa-solid fa-shower mt-3"></i>2</span>
+                                <span class="d-flex flex-column justify-content-between align-items-center  me-3">Area <i
+                                        class="fa-solid fa-chart-area mt-3"></i>4</span>
+                            </div>
+                        </div>
+                        <div class="prop-price">
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="fw-bold">For Sale</p>
+                                <p class="fs-5 total-price">$540,000</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="text-muted">By</p>
+                                <p class="fw-bold">Melissa William, John David</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-6 mt-4">
+                    <div class=" prop-container">
+                        <div class="prop-img">
+                            <img src="assets/images/prop-3.jpg" alt="home-photo" srcset="">
+                            <div class="over-lay"></div>
+                            <div class="hot">
+                                Hot
+                            </div>
+                            <div class="heart">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="camera">
+                                <i class="fa-solid fa-camera"></i>
+                                6
+                            </div>
+                            <div class="video">
+                                <i class="fa-solid fa-film"></i>
+                                1
+                            </div>
+                            <div class="featured">Featured</div>
+                        </div>
+                        <div class="prop-info">
+                            <p class="mb-3">Home in Merrick Way</p>
+                            <p class="mb-3">Enchanting three bedroom, three bath home with spacious one…</p>
+                            <p class="location mb-3"><i class="fa-solid fa-location-dot"></i> Merrick Way, Miami, FL 33134,
+                                USA</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="d-flex flex-column justify-content-between align-items-center  me-3">Bedrooms <i
+                                        class="fa-solid fa-bed mt-3"></i>3</span>
+                                <span class="d-flex flex-column justify-content-between align-items-center  me-3">Bathrooms <i
+                                        class="fa-solid fa-shower mt-3"></i>2</span>
+                                <span class="d-flex flex-column justify-content-between align-items-center  me-3">Area <i
+                                        class="fa-solid fa-chart-area mt-3"></i>4</span>
+                            </div>
+                        </div>
+                        <div class="prop-price">
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="fw-bold">For Sale</p>
+                                <p class="fs-5 total-price">$540,000</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="text-muted">By</p>
+                                <p class="fw-bold">Melissa William, John David</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="second-section">
+            <div class="overlay-gradient"></div>
+            <div class=" d-flex justify-content-center align-items-center flex-column content">
+                <h4 class="w-75">Looking to Buy a new property or Sell an existing one? RealHomes provides an easy solution!</h4>
+                <hr>
+                <p class="w-50">RealHomes gracefully facilitates real estate business owners by making property management easier &
+                    affordable.</p>
+                <div class="d-flex justify-content-between gap-3">
+                    <a href="">submit property</a>
+                    <a href="">browse properties</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--featured properties-->
+
+    <section class="featured-prop item">
+        <div class="d-flex justify-content-center align-items-center flex-column">
+            <h4 class="">Featured Properties</h4>
+            <hr class="custom-hr">
+            <p>Check out some of our featured properties.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-center align-items-center flex-column position-relative">
+                        <div>
+                            <img src="assets/images/House-Design-1.jpg" alt="house" width="644" height="328"
+                                class="rounded-3">
+                        </div>
+                        <div
+                            class="content d-flex justify-content-center align-items-start flex-column gap-0 position-absolute ">
+                            <div class="featured">Featured</div>
+                            <h4 class="fw-bold mt-4">Villa on Hollywood Boulevard</h4>
+                            <p>The very best waterfront location in Harbor Islands complete with private dock and
+                                amazing water…</p>
+                            <p class="text-muted mt-3">Added:June 13, 2020</p>
+                            <div class="d-flex justify-content-between align-items-center my-2">
+                                <span
+                                    class="d-flex flex-column justify-content-between align-items-center me-3">Bedrooms
+                                    <i class="fa-solid fa-bed mt-3"></i>3</span>
+                                <span
+                                    class="d-flex flex-column justify-content-between align-items-center me-3">Bathrooms
+                                    <i class="fa-solid fa-shower mt-3"></i>2</span>
+                                <span class="d-flex flex-column justify-content-between align-items-center">Area <i
+                                        class="fa-solid fa-chart-area mt-3"></i>4</span>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="d-flex flex-column">
+                                    <p class="fw-bold">For sale</p>
+                                    <p class="total-price">$740,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--facilities-->
+
+    <section class="facility">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+
+                    <div class="facility-imgs position-relative ">
+                        <div class="position-relative fac-img__2 overflow-hidden rounded-3 mb-3">
+                            <img src="assets/images/fac-1 (1).jpg" alt="" srcset="">
+                            <div class="overlay position-absolute"></div>
+                            <div class="fac-img__text position-absolute">
+                                <h4 class="mb-0">Resedential</h4>
+                                <p>0 Property</p>
+                            </div>
+                        </div>
+
+
+                        <div class="position-relative fac-img__2 overflow-hidden rounded-3">
+                            <img src="assets/images/fac-1 (2).jpg" alt="" srcset="">
+                            <div class="overlay position-absolute"></div>
+                            <div class="fac-img__text position-absolute">
+                                <h4 class="mb-0">Shop</h4>
+                                <p>1 Property</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <p class="fac-head">RealHomes gracefully facilitates real estate business owners</p>
+                    <hr class="custom-hr__2">
+                    <p class="text-muted">RealHomes gracefully facilitates real estate business owners by making property management easier & affordable.</p>
+                    <div class="row">
+                        <div class="col-lg-4 position-relative gallery">
+                            <div class="position-relative overflow-hidden rounded-3 mb-3">
+                                <img src="assets/images/fac-1 (3).jpg" alt="">
+                                <div class="overlay position-absolute"></div>
+                                <div class="fac-img__text position-absolute">
+                                    <h4 class="mb-0 text-capitalize">single family</h4>
+                                    <p>3 Property</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 position-relative gallery">
+                            <div class="position-relative overflow-hidden rounded-3 mb-3">
+                                <img src="assets/images/fac-1 (4).jpg" alt="">
+                                <div class="overlay position-absolute"></div>
+                            </div>
+                            <div class="fac-img__text position-absolute">
+                                <h4 class="mb-0 text-capitalize">villa</h4>
+                                <p>3 Property</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 position-relative gallery">
+                            <div class="position-relative overflow-hidden rounded-3">
+                                <img src="assets/images/fac-1 (3).jpg" alt="" height="200">
+                                <div class="overlay position-absolute"></div>
+                            </div>
+                            <div class="fac-img__text position-absolute">
+                                <h4 class="mb-0 text-capitalize">Apartment building</h4>
+                                <p>1 Property</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact-us-->
+
+    <section class="contact-us position-relative pb-5">
+        <div class="overlay-gradient"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 d-flex justify-content-start flex-column mt-5 me-5    ">
+                    <h4>More Personalised Outreach with Automation</h4>
+                    <hr>
+                    <p>Real Estate CRM system helps you go deeper with all your data and metrics, including those from other sources</p>
+                </div>
+                <div class="col-lg-5">
+                    <div class="form">
+                        <form action="">
+                            <select name="" id="" class=" ">
+                                <option value="Mr">Mr</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Dr">Dr</option>
+                                <option value="Prof">Prof</option>
+                            </select>
+                            <div class="inputs-1 d-flex flex-column">
+                                <input type="text" name="" id="" placeholder="Full Name">
+                                <input type="number" name="" id="" placeholder="Phone">
+                                <input type="email" name="" id="" placeholder="Email">
+                            </div>
+                            <hr class="custom-hr">
+                            <div class="inputs-2 d-flex flex-wrap">
+                                <input type="text" name="" id="" placeholder="Country">
+                                <input type="text" name="" id="" placeholder="City">
+                                <input type="text" name="" id="" placeholder="State">
+                                <input type="number" name="" id="" placeholder="Zip Code">
+                            </div>
+                            <div class="inputs-1">
+                                <input type="text" name="" id="" placeholder="State" class="w-100">
+                            </div>
+                            <div class="d-flex">
+                                <div class="w-50 me-3">
+                                    <p class="fw-bold text-black">How did you find us ?</p>
+                                    <select name="" id="" class=" ">
+                                        <option value="Mr">Mr</option>
+                                        <option value="Mrs">Mrs</option>
+                                        <option value="Dr">Dr</option>
+                                        <option value="Prof">Prof</option>
+                                    </select>
+                                </div>
+                                <div class="w-50">
+                                    <p class="fw-bold text-black">Agent</p>
+                                    <select name="" id="" class=" ">
+                                        <option value="Mr">Mr</option>
+                                        <option value="Mrs">Mrs</option>
+                                        <option value="Dr">Dr</option>
+                                        <option value="Prof">Prof</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <textarea name="" id="" placeholder="Message"></textarea>
+                            <button>Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex justify-content-start flex-column mt-4 ms-5  mt-sm-5">
+                    <h4>Simplified Collaboration</h4>
+                    <hr>
+                    <p>Always stay up to date, and you can easily look at its records to make decisions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--agents-->
+
+    <section class="agents">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h4 class="fs-5 fw-bold">Our Top Real Estate Agents</h4>
+                    <hr class="">
+                    <p class="text-muted">Our highly qualified agents will help you to find a best deal in town .</p>
+                    <div class=" home-agent-img position-relative overflow-hidden rounded-3 mb-3">
+                        <img src="assets/images/ag-1 (4).jpg" alt="" width="454" height="430">
+                        <div class="overlay position-absolute"></div>
+                        <div class="agent-name position-absolute">
+                            <div class="d-flex justify-content-center align-items-center gap-2">
+                                <h4 class="text-capitalize">john david</h4>
+                                <i class="fa-solid fa-check true-icon"></i>
+                            </div>
+                            <p class="text-capitalize">real state agent</p>
+                        </div>
+                        <div class="icons d-flex position-absolute justify-content-center align-items-center gap-3">
+                            <i class="fa-brands fa-facebook social-icons"></i>
+                            <i class="fa-brands fa-instagram social-icons"></i>
+                            <i class="fa-brands fa-twitter social-icons"></i>
+                            <i class="fa-brands fa-linkedin social-icons"></i>
+                            <i class="fa-brands fa-pinterest social-icons"></i>
+                            <i class="fa-solid fa-envelope social-icons"></i>
+                            <i class="fa-solid fa-phone social-icons"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class=" home-agent-img position-relative mb-3  overflow-hidden rounded-3 home-agent-img__1">
+                        <img src="assets/images/ag-1 (5).jpg" alt="" >
+                        <div class="overlay position-absolute"></div>
+                        <div class="agent-name position-absolute">
+                            <div class="d-flex justify-content-center align-items-center gap-2">
+                                <h4 class="text-capitalize">john david</h4>
+                                <i class="fa-solid fa-check true-icon"></i>
+                            </div>
+                            <p class="text-capitalize">real state agent</p>
+                        </div>
+                        <div class="icons d-flex position-absolute justify-content-center align-items-center gap-3">
+                            <i class="fa-brands fa-facebook social-icons"></i>
+                            <i class="fa-brands fa-instagram social-icons"></i>
+                            <i class="fa-brands fa-twitter social-icons"></i>
+                            <i class="fa-brands fa-linkedin social-icons"></i>
+                            <i class="fa-brands fa-pinterest social-icons"></i>
+                            <i class="fa-solid fa-envelope social-icons"></i>
+                            <i class="fa-solid fa-phone social-icons"></i>
+                        </div>
+                    </div>
+                    <div class=" home-agent-img position-relative overflow-hidden rounded-3 home-agent-img__2 mb-3">
+                        <img src="assets/images/ag-1 (1).jpg" alt="">
+                        <div class="overlay position-absolute"></div>
+                        <div class="agent-name position-absolute">
+                            <div class="d-flex justify-content-center align-items-center gap-2">
+                                <h4 class="text-capitalize">john david</h4>
+                                <i class="fa-solid fa-check true-icon"></i>
+                            </div>
+                            <p class="text-capitalize">real state agent</p>
+                        </div>
+                        <div class="icons d-flex position-absolute justify-content-center align-items-center gap-3">
+                            <i class="fa-brands fa-facebook social-icons"></i>
+                            <i class="fa-brands fa-instagram social-icons"></i>
+                            <i class="fa-brands fa-twitter social-icons"></i>
+                            <i class="fa-brands fa-linkedin social-icons"></i>
+                            <i class="fa-brands fa-pinterest social-icons"></i>
+                            <i class="fa-solid fa-envelope social-icons"></i>
+                            <i class="fa-solid fa-phone social-icons"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class=" home-agent-img position-relative  overflow-hidden rounded-3 mb-3 home-agent-img__3">
+                        <img src="assets/images/ag-1 (3).jpg" alt="">
+                        <div class="overlay position-absolute"></div>
+                        <div class="agent-name position-absolute">
+                            <div class="d-flex justify-content-center align-items-center gap-2">
+                                <h4 class="text-capitalize">john david</h4>
+                                <i class="fa-solid fa-check true-icon"></i>
+                            </div>
+                            <p class="text-capitalize">real state agent</p>
+                        </div>
+                        <div class="icons d-flex position-absolute justify-content-center align-items-center gap-3">
+                            <i class="fa-brands fa-facebook social-icons"></i>
+                            <i class="fa-brands fa-instagram social-icons"></i>
+                            <i class="fa-brands fa-twitter social-icons"></i>
+                            <i class="fa-brands fa-linkedin social-icons"></i>
+                            <i class="fa-brands fa-pinterest social-icons"></i>
+                            <i class="fa-solid fa-envelope social-icons"></i>
+                            <i class="fa-solid fa-phone social-icons"></i>
+                        </div>
+                    </div>
+                    <div class=" home-agent-img position-relative  overflow-hidden rounded-3 home-agent-img__4 mb-3">
+                        <img src="assets/images/ag-1 (2).jpg" alt="">
+                        <div class="overlay position-absolute"></div>
+                        <div class="agent-name position-absolute">
+                            <div class="d-flex justify-content-center align-items-center gap-2">
+                                <h4 class="text-capitalize">john david</h4>
+                                <i class="fa-solid fa-check true-icon"></i>
+                            </div>
+                            <p class="text-capitalize">real state agent</p>
+                        </div>
+                        <div class="icons d-flex position-absolute justify-content-center align-items-center gap-3">
+                            <i class="fa-brands fa-facebook social-icons"></i>
+                            <i class="fa-brands fa-instagram social-icons"></i>
+                            <i class="fa-brands fa-twitter social-icons"></i>
+                            <i class="fa-brands fa-linkedin social-icons"></i>
+                            <i class="fa-brands fa-pinterest social-icons"></i>
+                            <i class="fa-solid fa-envelope social-icons"></i>
+                            <i class="fa-solid fa-phone social-icons"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--testimonials-->
+
+    <section class="testimonials text-center mt-5 ">
+        <div class="container">
+            <h2>Words From Our Customers</h2>
+            <p class="lead">We are honoured to have these amazing Customers</p>
+            <div class="owl-carousel owl-theme">
+                <div class="testimonial-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="customer-info">
+                        <h5>Ronald Green</h5>
+                        <p class="text-muted">Real Estate Owner</p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="customer-info">
+                        <h5>Liza Bryan</h5>
+                        <p class="text-muted">Real Estate Owner</p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p>Dolore magna Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="customer-info">
+                        <h5>Catharine Wills</h5>
+                        <p class="text-muted">Real Estate Owner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--partners-->
+
+    <section class="partners mt-5 p-5">
+        <div class="container m-auto">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-2 col-sm-6  col-md-2 me-lg-5">
+                    <img src="assets/images/partner-01-1.png" alt="">
+                </div>
+                <div class="col-lg-2 col-sm-6 col-md-2 me-lg-5">
+                    <img src="assets/images/partner-02-1.png" alt="">
+                </div>
+                <div class="col-lg-2 col-sm-6 col-md-2 me-lg-5">
+                    <img src="assets/images/partner-03-1.png" alt="">
+                </div>
+                <div class="col-lg-2 col-sm-6 col-md-2 me-lg-5">
+                    <img src="assets/images/partner-01-1.png" alt="">
+                </div>
+                <div class="col-lg-2 col-sm-6 col-md-2 d-md-none d-lg-block ">
+                    <img src="assets/images/partner-02-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--footer-->
+
+    <footer>
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <div>
+                        <img src="assets/images/logo.png" alt="" width="120" height="50">
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-links">
+                <div class="col-lg-3">
+                    <h4 class="mb-3 text-white">Quick Links</h4>
+                    <div class="d-flex flex-column gap-3">
+                        <a href="">Home</a>
+                        <a href="">Property</a>
+                        <a href="">Gallery</a>
+                        <a href="">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-flex flex-column gap-4">
+                        <a href="">Real Estate</a>
+                        <a href="">Blog</a>
+                        <a href="">Pages</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-flex flex-column gap-3">
+                        <p><i class="fa-solid fa-location-dot me-3"></i>3015 Grand Ave, Coconut Grove, Merrick Way, FL 12345</p>
+                        <a href=""><i class="fa-solid fa-phone me-3"></i>+123456</a>
+                        <a href=""><i class="fa-solid fa-envelope me-3"></i>robot@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="text-white">Tags</h4>
+                    <div class="d-flex flex-wrap">
+                        <a href="" class="footer-btns">awarness</a>
+                        <a href="" class="footer-btns">contemporary</a>
+                        <a href="" class="footer-btns">economy living</a>
+                        <a href="" class="footer-btns">image post</a>
+                        <a href="" class="footer-btns">interior</a>
+                        <a href="" class="footer-btns">living rooms</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 text-white">
+                <div class="container">
+                    <div class="col-lg-12">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p>© 2024. All rights reserved.</p>
+                            <p>Designed by Inspiry Themes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</body>
+
+</html>
